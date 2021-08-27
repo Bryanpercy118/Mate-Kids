@@ -1,0 +1,76 @@
+/*Navbar*/
+
+
+.hero_section .rows{
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+.hero_section .rows h1,h2,h3,p{
+    color:black;
+}
+.hero_section .rows h3{
+
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.hero_section .rows h3::after{
+
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    margin-left: 6px;
+}
+
+.hero_section .rows h1{
+
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.hero_section .rows h2{
+
+    font-size: 20px;
+    font-weight: 100;
+    margin: 8px 0px;
+}
+.hero_section .rows p{
+
+    font-size: 13px;
+    margin-top: 13px;
+    line-height: 21px;
+    color:var(--secondary-color);
+
+}
+.hero_section .rows button{
+
+border-radius: 20px;
+font-size: 19px;
+color:black;
+background-color: var(--pink-color);
+border: 3px solid var(--pink-color);
+width: 152px;
+font-family: 'poppins', sans-serif;
+margin-top: 20px;
+}
+
+.hero_section .rows button:hover{
+
+    animation: swing;
+    animation-duration: 0.5s;
+    background:green;
+    color:white;
+    
+}
+.hero_section .rows img{
+
+    width: 80%;
+}
